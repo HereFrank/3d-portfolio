@@ -49,7 +49,7 @@ const About = () => {
         implemented logic for connecting with Smart Contracts in the blockchain
         of Solana. <br /> I love to learn and build efficent, scalable, and
         user-friendly solutions that solve real-world problems. Let's work
-        together to bring your idea to life!
+        together to bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
