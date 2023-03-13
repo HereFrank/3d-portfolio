@@ -19,15 +19,26 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import bootstrap from "./tech/bootstrap.png";
+import firebase from "./tech/firebase.png";
+import next from "./tech/next.svg";
+import web3 from "./tech/web3.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import tapout from "./company/tapout.jpg";
+import yiess from "./company/yiess.jpeg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import lens from "./projects/lensProject.png";
+import gastos from "./projects/gastosApp.png";
+import todo from "./projects/todoApp.png";
+import cafe from "./projects/cafe.png";
+import blog from "./projects/blog.png";
+import startup from "./projects/startup.png";
+import portfolio from "./projects/portfolio.png";
+import bootstrapProject from "./projects/boostrap.png";
 
 export {
   logo,
@@ -51,11 +62,22 @@ export {
   tailwind,
   typescript,
   threejs,
+  bootstrap,
+  firebase,
+  next,
+  web3,
   meta,
   shopify,
   starbucks,
+  tapout,
+  yiess,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  lens,
+  gastos,
+  todo,
+  cafe,
+  blog,
+  startup,
+  portfolio,
+  bootstrapProject,
 };

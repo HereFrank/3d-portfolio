@@ -1,3 +1,4 @@
+import { a } from "maath/dist/objectSpread2-284232a6.esm";
 import {
   mobile,
   backend,
@@ -14,14 +15,21 @@ import {
   mongodb,
   git,
   figma,
+  bootstrap,
+  firebase,
+  next,
+  web3,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  tapout,
+  yiess,
+  lens,
+  gastos,
+  todo,
+  cafe,
+  blog,
+  startup,
+  portfolio,
+  bootstrapProject,
   threejs,
 } from "../assets";
 
@@ -29,6 +37,10 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "techs",
+    title: "My Stack",
   },
   {
     id: "work",
@@ -46,22 +58,22 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Problem Solver",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Fast learner",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Adaptable to changes",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "html 5",
     icon: html,
   },
   {
@@ -81,6 +93,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Next JS",
+    icon: next,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -88,86 +104,86 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
+  // {
+  //   name: "Bootstrap",
+  //   icon: bootstrap,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
   },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Firebase",
+    icon: firebase,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Front-end Developer",
+    company_name: "Tapout Perú",
+    icon: tapout,
+    iconBg: "#000",
+    date: "March 2021 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Make a new home page following a PSD file to make a UI with a pixel-perfect fit",
+      "Use WordPess and the page builder WPBakery to construct the interface",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Front-end/Blockchain developer",
+    company_name: "Yiess",
+    icon: yiess,
+    iconBg: "#fff",
+    date: "September 2021 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "In charge of the creation of front-end components, as well as in the refactoring of the code",
+      "Assisting with the NFTs minting page as well as the purchasing system for sell the images using metaplex and the Candy Machine Contract.",
+      "Review and perform functions to connect to the project's smart contract",
+      "Create new functionalities for the project, like allow the users to create NFTs, give like to them, and to sell them",
+      "Developing and maintaining the web applications of the project using React.js/Next.js, Javascript/Typescript and other related technologies.",
+      "Collaborating with cross-functional teams and other developers to create a good product.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
+
+// const experiencesOld = [
+//   {
+//     title: "Front-end Developer",
+//     company_name: "Tapout Perú",
+//     icon: tapout,
+//     iconBg: "#000",
+//     date: "March 2020 - April 2021",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   }
+// ];
 
 const testimonials = [
   {
@@ -198,67 +214,158 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "A social network for AI images",
+    description: `I cloned three views of the page: www.artofficialintelligence.xyz/gallery. A social network that allow users to create and share images generated by an AI. I developed the front-end and used the Lens Protocol API to retrieve the necessary information.`,
     tags: [
       {
-        name: "react",
+        name: "next",
+        color: "text-white",
+      },
+      {
+        name: "ant-desing",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "GraphQL",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: lens,
+    source_code_link: "https://github.com/HereFrank/Next-challenge",
+    project_link: "https://next-challenge-zeta.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Expense management application",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This is a web application that enables users to manage their expenses. Users can categorize their expenses and see where their money is being spent.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
       },
       {
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "firebase",
+        color: "orange-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: gastos,
+    source_code_link: "https://github.com/HereFrank/expenseManager",
+    project_link: "https://app-lista-gastos-cc4bf.web.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Todo App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This React app allows users to manage their daily tasks. Users can create, read, edit, and delete tasks as needed.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "localStorage",
         color: "green-text-gradient",
+      },
+    ],
+    image: todo,
+    source_code_link: "https://github.com/HereFrank/todoApp",
+    project_link: "https://app-lista-tareas-c9bc9.web.app/",
+  },
+  {
+    name: "Restaurant website",
+    description: "A home page of a restaurant website",
+    tags: [
+      {
+        name: "html",
+        color: "orange-text-gradient",
       },
       {
         name: "css",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "text-yellow-500",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: cafe,
+    source_code_link: "https://github.com/HereFrank/Restaurant",
+    project_link: "https://herefrank.github.io/Restaurant/",
+  },
+  {
+    name: "Blog website",
+    description: "A home page of a blog website",
+    tags: [
+      {
+        name: "html",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: blog,
+    source_code_link: "https://github.com/HereFrank/blog",
+    project_link: "https://herefrank.github.io/blog/",
+  },
+  {
+    name: "Startup website",
+    description: "A home page of a startup website",
+    tags: [
+      {
+        name: "html",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: startup,
+    source_code_link: "https://github.com/HereFrank/startup",
+    project_link: "https://herefrank.github.io/startup/",
+  },
+  {
+    name: "Portfolio website",
+    description: "A portfolio website",
+    tags: [
+      {
+        name: "html",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/HereFrank/my-projects",
+    project_link: "https://herefrank.github.io/my-projects/",
+  },
+  {
+    name: "Bootstrap website",
+    description: "A website page made with Bootstrap",
+    tags: [
+      {
+        name: "html",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "text-purple-700",
+      },
+    ],
+    image: bootstrapProject,
+    source_code_link: "https://github.com/HereFrank/Bootstrap4",
+    project_link: "https://herefrank.github.io/Bootstrap4/",
   },
 ];
 

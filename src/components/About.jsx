@@ -42,13 +42,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a front-end developer with around of 2 years of experience making UI
-        interfaces and logic in Next.js/React. I have developed front-end
-        components using Typescript/Javascript, worked with Node.js, and even
-        implemented web3.0 solutions to make NFTs using the Metaplex SDK and
-        implemented logic for connecting with Smart Contracts in the blockchain
-        of Solana. <br /> I love to learn and build efficent, scalable, and
-        user-friendly solutions that solve real-world problems. Let's work
+        I am a front-end developer with around 2 years of experience in creating
+        UI interfaces and logic using Next.js/React. I have developed front-end
+        components using Typescript/Javascript and worked with Node.js.
+        Additionally, I have experience implementing web3.0 solutions to create
+        NFTs using the Metaplex SDK and connecting with Smart Contracts in the
+        Solana blockchain. <br /> I love to learn and build efficent, scalable,
+        and user-friendly solutions that solve real-world problems. Let's work
         together to bring your ideas to life!
       </motion.p>
 
