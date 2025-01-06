@@ -30,7 +30,7 @@ import {
   startup,
   portfolio,
   bootstrapProject,
-  threejs,
+  flamatech,
 } from "../assets";
 
 export const navLinks = [
@@ -167,23 +167,20 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
     ],
   },
+  {
+    title: "Front-end/Bot developer",
+    company_name: "FlamaTech",
+    icon: flamatech,
+    iconBg: "#fff",
+    date: "March 2023 - January 2023",
+    points: [
+      "In charge of the creation of front-end components, as well as in the refactoring of the code",
+      "Creation of telegram and discord bots using node.js",
+      "Use bots to collect data and display it on a website",
+      "Create new functionalities for the project using telegram or discord bots, like give a discord role based on the blockchain activity that have a user",
+    ],
+  },
 ];
-
-// const experiencesOld = [
-//   {
-//     title: "Front-end Developer",
-//     company_name: "Tapout Perú",
-//     icon: tapout,
-//     iconBg: "#000",
-//     date: "March 2020 - April 2021",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   }
-// ];
 
 const testimonials = [
   {

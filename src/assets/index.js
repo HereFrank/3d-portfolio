@@ -30,6 +30,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import tapout from "./company/tapout.jpg";
 import yiess from "./company/yiess.jpeg";
+import flamatech from "./company/flamatech.webp";
 
 import lens from "./projects/lensProject.png";
 import gastos from "./projects/gastosApp.png";
@@ -80,4 +81,5 @@ export {
   startup,
   portfolio,
   bootstrapProject,
+  flamatech,
 };
