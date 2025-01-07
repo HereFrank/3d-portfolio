@@ -172,7 +172,7 @@ const experiences = [
     company_name: "FlamaTech",
     icon: flamatech,
     iconBg: "#fff",
-    date: "March 2023 - January 2023",
+    date: "March 2023 - January 2025",
     points: [
       "In charge of the creation of front-end components, as well as in the refactoring of the code",
       "Creation of telegram and discord bots using node.js",
