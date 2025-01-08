@@ -45,13 +45,13 @@ const About = () => {
         As a front-end developer with approximately three years of experience in
         creating UI interfaces and logic using Next.js/React, I have developed
         front-end components using TypeScript/JavaScript and worked with
-        Node.js. I have experience implementing Web 3.0 using the blockchain of
-        Ethereum and Solana, as well as creating bots for Telegram and Discord
-        using Node.js and integrating them with web applications. <br /> I am
-        passionate about continuous learning and building efficient, scalable,
-        and user-friendly solutions that solve real-world problems.I look
-        forward to discussing how we can collaborate to bring your ideas to
-        life.
+        Node.js. <br /> Additionaly I have implemented Web 3.0 solutions using
+        the blockchain of Ethereum and Solana, as well as creating bots for
+        Telegram and Discord using Node.js and integrating them with web
+        applications. <br /> I am passionate about continuous learning and
+        building efficient, scalable, and user-friendly solutions that solve
+        real-world problems.I look forward to discussing how we can collaborate
+        to bring your ideas to life.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-4 justify-center">
