@@ -42,7 +42,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        As a front-end developer with approximately three years of experience in
+        As a front-end developer with more than three years of experience in
         creating UI interfaces and logic using Next.js/React, I have developed
         front-end components using TypeScript/JavaScript and worked with
         Node.js. <br /> Additionaly I have implemented Web 3.0 solutions using
