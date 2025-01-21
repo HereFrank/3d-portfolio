@@ -168,13 +168,14 @@ const experiences = [
     ],
   },
   {
-    title: "Front-end/Bot developer",
+    title: "Full-stack/Bot developer",
     company_name: "FlamaTech",
     icon: flamatech,
     iconBg: "#fff",
     date: "March 2023 - January 2025",
     points: [
       "In charge of the creation of front-end components, as well as in the refactoring of the code",
+      "I worked on the back-end of the project by implementing new features through the creation of endpoints in node.js",
       "Creation of telegram and discord bots using node.js",
       "Use bots to collect data and display it on a website",
       "Create new functionalities for the project using telegram or discord bots, like give a discord role based on the blockchain activity that have a user",
