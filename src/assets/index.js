@@ -23,6 +23,7 @@ import bootstrap from "./tech/bootstrap.png";
 import firebase from "./tech/firebase.png";
 import next from "./tech/next.svg";
 import web3 from "./tech/web3.png";
+import shadcn from "./tech/shadcn.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -54,6 +55,7 @@ export {
   css,
   docker,
   figma,
+  shadcn,
   git,
   html,
   javascript,

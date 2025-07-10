@@ -31,6 +31,7 @@ import {
   bootstrapProject,
   flamatech,
   profitSecured,
+  shadcn,
 } from "../assets";
 
 export const navLinks = [
@@ -116,10 +117,10 @@ const technologies = [
   //   name: "MongoDB",
   //   icon: mongodb,
   // },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
+  {
+    name: "Shadcn UI",
+    icon: shadcn,
+  },
   {
     name: "Firebase",
     icon: firebase,
@@ -132,10 +133,10 @@ const technologies = [
     name: "Figma",
     icon: figma,
   },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: "docker",
+    icon: docker,
+  },
 ];
 
 const experiences = [
