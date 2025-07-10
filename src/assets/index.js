@@ -40,6 +40,7 @@ import blog from "./projects/blog.png";
 import startup from "./projects/startup.png";
 import portfolio from "./projects/portfolio.png";
 import bootstrapProject from "./projects/boostrap.png";
+import profitSecured from "./projects/profitSecured.webp";
 
 export {
   logo,
@@ -82,4 +83,5 @@ export {
   portfolio,
   bootstrapProject,
   flamatech,
+  profitSecured,
 };
