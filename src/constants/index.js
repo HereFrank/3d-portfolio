@@ -32,6 +32,7 @@ import {
   flamatech,
   profitSecured,
   shadcn,
+  prisma,
 } from "../assets";
 
 export const navLinks = [
@@ -98,17 +99,13 @@ const technologies = [
     icon: next,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Figma",
+    icon: figma,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  // {
-  //   name: "Bootstrap",
-  //   icon: bootstrap,
-  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -125,14 +122,11 @@ const technologies = [
     name: "Firebase",
     icon: firebase,
   },
-  // {
-  //   name: "Git",
-  //   icon: git,
-  // },
   {
-    name: "Figma",
-    icon: figma,
+    name: "Prisma",
+    icon: prisma,
   },
+
   {
     name: "docker",
     icon: docker,
@@ -177,11 +171,12 @@ const experiences = [
     points: [
       "In charge of the creation of front-end components, as well as in the refactoring of the code",
       "I worked on the back-end of the project by implementing new features through the creation of endpoints in node.js",
+      "Working with PostgreSQL database using the prisma ORM",
       "Creation of telegram and discord bots using node.js",
       "Creation of telegram mini-apps",
       "Use bots to collect data and display it on a website",
       "Create new functionalities for the project using telegram or discord bots, like give a discord role based on the blockchain activity that have a user",
-      "Implementing blockchain features for bots and web pages using libraries such as viem.js, ether.js and wagmi.",
+      "Implementing blockchain features for bots and web pages using libraries such as viem.js, ether.js and wagmi",
     ],
   },
 ];
