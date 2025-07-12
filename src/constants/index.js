@@ -157,6 +157,7 @@ const experiences = [
       "Assisting with the NFTs minting page as well as the purchasing system for sell the images using metaplex and the Candy Machine Contract.",
       "Review and perform functions to connect to the project's smart contract",
       "Create new functionalities for the project, like allow the users to create NFTs, give like to them, and to sell them",
+      "Allow the web page to sale a solana token",
       "Developing and maintaining the web applications of the project using React.js/Next.js, Javascript/Typescript and other related technologies.",
       "Collaborating with cross-functional teams and other developers to create a good product.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -175,8 +176,8 @@ const experiences = [
       "Creation of telegram and discord bots using node.js",
       "Creation of telegram mini-apps",
       "Use bots to collect data and display it on a website",
-      "Create new functionalities for the project using telegram or discord bots, like give a discord role based on the blockchain activity that have a user",
       "Implementing blockchain features for bots and web pages using libraries such as viem.js, ether.js and wagmi",
+      "The creation of graphs for data visualization",
     ],
   },
 ];
