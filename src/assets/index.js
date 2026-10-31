@@ -1,4 +1,4 @@
-import logo from "./frank2-logo.png";
+import logo from "./frank2-logo.webp";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -18,7 +18,6 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 import bootstrap from "./tech/bootstrap.png";
 import vuejs from "./tech/vuejs.svg";
 import next from "./tech/next.svg";
@@ -27,21 +26,18 @@ import shadcn from "./tech/shadcn.svg";
 import prisma from "./tech/prisma.png";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import southteams from "./company/southteams.jpg";
 import yiess from "./company/yiess.jpeg";
 import flamatech from "./company/flamatech.png";
 
-import lens from "./projects/lensProject.png";
+import lens from "./projects/lensProject.webp";
 import gastos from "./projects/gastosApp.png";
 import todo from "./projects/todoApp.png";
-import cafe from "./projects/cafe.png";
-import blog from "./projects/blog.png";
-import startup from "./projects/startup.png";
-import portfolio from "./projects/portfolio.png";
-import bootstrapProject from "./projects/boostrap.png";
+import cafe from "./projects/cafe.webp";
+import blog from "./projects/blog.webp";
+import startup from "./projects/startup.webp";
+import portfolio from "./projects/portfolio.webp";
+import bootstrapProject from "./projects/boostrap.webp";
 import profitSecured from "./projects/profitSecured.webp";
 
 export {
@@ -66,17 +62,13 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
   bootstrap,
   vuejs,
   next,
   web3,
   meta,
-  shopify,
-  starbucks,
   southteams,
   yiess,
-  tesla,
   lens,
   gastos,
   todo,
