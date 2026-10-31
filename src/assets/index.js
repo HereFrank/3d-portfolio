@@ -8,7 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import nestjs from "./tech/nestjs.svg";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -20,7 +20,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import bootstrap from "./tech/bootstrap.png";
-import firebase from "./tech/firebase.png";
+import vuejs from "./tech/vuejs.svg";
 import next from "./tech/next.svg";
 import web3 from "./tech/web3.png";
 import shadcn from "./tech/shadcn.svg";
@@ -30,7 +30,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import tapout from "./company/tapout.jpg";
+import southteams from "./company/southteams.jpg";
 import yiess from "./company/yiess.jpeg";
 import flamatech from "./company/flamatech.png";
 
@@ -55,7 +55,7 @@ export {
   close,
   css,
   docker,
-  figma,
+  nestjs,
   shadcn,
   git,
   html,
@@ -68,13 +68,13 @@ export {
   typescript,
   threejs,
   bootstrap,
-  firebase,
+  vuejs,
   next,
   web3,
   meta,
   shopify,
   starbucks,
-  tapout,
+  southteams,
   yiess,
   tesla,
   lens,

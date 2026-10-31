@@ -42,16 +42,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        As a front-end developer with four years of experience in creating UI
-        interfaces and logic using Next.js/React, I have developed front-end
-        components using TypeScript/JavaScript and worked with Node.js. <br />{" "}
-        Additionaly I have implemented Web 3.0 solutions using the blockchain of
-        Ethereum and Solana, as well as creating bots for Telegram and Discord
-        using Node.js and integrating them with web applications. <br /> I am
-        passionate about continuous learning and building efficient, scalable,
-        and user-friendly solutions that solve real-world problems.I look
-        forward to discussing how we can collaborate to bring your ideas to
-        life.
+        Full-stack developer with more than 5 years of experience building
+        end-to-end solutions in Scrum teams. I work mainly across the
+        JavaScript/TypeScript ecosystem with React, Next.js, Vue and Nest.js,
+        crafting fast interfaces and backing them with microservices,
+        microfrontends and PostgreSQL through Prisma. <br /> I have also worked
+        with RabbitMQ for asynchronous processing, Docker, Web3 integrations on
+        Ethereum and Solana, and bots and mini-apps for Telegram, Discord and
+        WhatsApp. <br /> I care about clean, maintainable code (Clean Code,
+        Hexagonal Architecture) and about speeding up the development cycle by
+        bringing AI agents into my workflow. I would love to talk about how we
+        can bring your ideas to life.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-4 justify-center">

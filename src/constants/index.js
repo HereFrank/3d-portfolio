@@ -13,13 +13,13 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
+  nestjs,
   bootstrap,
-  firebase,
+  vuejs,
   next,
   web3,
   docker,
-  tapout,
+  southteams,
   yiess,
   lens,
   gastos,
@@ -56,7 +56,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Developer",
     icon: web,
   },
   {
@@ -99,8 +99,8 @@ const technologies = [
     icon: next,
   },
   {
-    name: "Figma",
-    icon: figma,
+    name: "Nest JS",
+    icon: nestjs,
   },
   {
     name: "Tailwind CSS",
@@ -119,8 +119,8 @@ const technologies = [
     icon: shadcn,
   },
   {
-    name: "Firebase",
-    icon: firebase,
+    name: "Vue JS",
+    icon: vuejs,
   },
   {
     name: "Prisma",
@@ -135,32 +135,18 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Front-end Developer",
-    company_name: "Tapout Perú",
-    icon: tapout,
-    iconBg: "#000",
-    date: "March 2021 - April 2021",
-    points: [
-      "Make a new home page following a PSD file to make a UI with a pixel-perfect fit",
-      "Use WordPess and the page builder WPBakery to construct the interface",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-    ],
-  },
-  {
     title: "Front-end/Blockchain developer",
     company_name: "Yiess",
     icon: yiess,
     iconBg: "#fff",
-    date: "September 2021 - March 2023",
+    date: "September 2021 - February 2023",
     points: [
-      "In charge of the creation of front-end components, as well as in the refactoring of the code",
-      "Assisting with the NFTs minting page as well as the purchasing system for sell the images using metaplex and the Candy Machine Contract.",
-      "Review and perform functions to connect to the project's smart contract",
-      "Create new functionalities for the project, like allow the users to create NFTs, give like to them, and to sell them",
-      "Allow the web page to sale a solana token",
-      "Developing and maintaining the web applications of the project using React.js/Next.js, Javascript/Typescript and other related technologies.",
-      "Collaborating with cross-functional teams and other developers to create a good product.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Built front-end components and refactored code for the project's views, using React.js/Next.js and JavaScript/TypeScript",
+      "Helped build the NFT minting and sales system, using Metaplex and the Candy Machine contract",
+      "Contributed to the SPL token sales system on the Solana blockchain",
+      "Developed functions to connect the interface with the project's smart contract",
+      "Added features such as letting users create, like and sell NFTs",
+      "Implemented responsive design and cross-browser compatibility",
     ],
   },
   {
@@ -168,16 +154,30 @@ const experiences = [
     company_name: "FlamaTech",
     icon: flamatech,
     iconBg: "#fff",
-    date: "March 2023 - July 2025",
+    date: "March 2023 - October 2025",
     points: [
-      "In charge of the creation of front-end components, as well as in the refactoring of the code",
-      "I worked on the back-end of the project by implementing new features through the creation of endpoints in node.js",
-      "Working with PostgreSQL database using the prisma ORM",
-      "Creation of telegram and discord bots using node.js",
-      "Creation of telegram mini-apps",
-      "Use bots to collect data and display it on a website",
-      "Implementing blockchain features for bots and web pages using libraries such as viem.js, ether.js and wagmi",
-      "The creation of graphs for data visualization",
+      "Developed front-end components and refactored code with scalable, maintainable design patterns",
+      "Extended the back-end by creating new endpoints with Node.js and Next.js",
+      "Worked with PostgreSQL through Prisma ORM and connected it to Telegram and Discord bots",
+      "Built Telegram and Discord bots with Node.js, and helped create Telegram mini-apps for clients",
+      "Stored the data collected by bots and displayed it as charts on the company website",
+      "Implemented blockchain features for bots and web pages using Viem.js, Ether.js and Wagmi",
+      "Handled asynchronous tasks with a BullMQ task queue",
+    ],
+  },
+  {
+    title: "Full-stack Developer",
+    company_name: "Southteams | Qurable",
+    icon: southteams,
+    iconBg: "#fff",
+    date: "October 2025 - Current",
+    points: [
+      "Building microservices with Nest.js and implementing the product's business logic",
+      "Orchestrating asynchronous processes through RabbitMQ queues",
+      "Creating interfaces and components with Vue.js within a microfrontend architecture",
+      "Working in the aviation industry for Sky Airline, on the returns and claims area, handling complex architectures and high data volumes",
+      "Collaborating in a Scrum team of up to 7 people",
+      "Using AI agents in the workflow to speed up development tasks",
     ],
   },
 ];
