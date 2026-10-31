@@ -1,4 +1,5 @@
 import { BallCanvas } from "./canvas";
+import InView from "./InView";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 import { motion } from "framer-motion";
@@ -15,9 +16,9 @@ const Tech = () => {
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-20">
         {technologies.map((technology) => (
           <div className="flex flex-col" key={technology.name}>
-            <div className="w-28 h-28">
+            <InView className="w-28 h-28">
               <BallCanvas icon={technology.icon} />
-            </div>
+            </InView>
             <p className="text-center text-secondary">{technology.name}</p>
           </div>
         ))}
