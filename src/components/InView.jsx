@@ -1,9 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
-// Mounts its children only while the wrapper is near the viewport, so heavy
-// WebGL canvases are neither created nor rendered when nobody can see them.
-const InView = ({ children, className, rootMargin = "200px" }) => {
-  const ref = useRef(null);
+// True while the referenced element is near the viewport.
+export const useInView = (ref, rootMargin = "200px") => {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -17,7 +15,16 @@ const InView = ({ children, className, rootMargin = "200px" }) => {
     observer.observe(node);
 
     return () => observer.disconnect();
-  }, [rootMargin]);
+  }, [ref, rootMargin]);
+
+  return visible;
+};
+
+// Mounts its children only while the wrapper is near the viewport, so heavy
+// WebGL canvases are neither created nor rendered when nobody can see them.
+const InView = ({ children, className, rootMargin }) => {
+  const ref = useRef(null);
+  const visible = useInView(ref, rootMargin);
 
   return (
     <div ref={ref} className={className}>
