@@ -6,7 +6,7 @@ import InView from "../InView";
 
 const Stars = (props) => {
   const ref = useRef();
-  const sphere = random.inSphere(new Float32Array(5000), { radiusL: 1.2 });
+  const sphere = random.inSphere(new Float32Array(5001), { radius: 1 });
   useFrame((state, delta) => {
     ref.current.rotation.x -= delta / 10;
     ref.current.rotation.y -= delta / 15;
