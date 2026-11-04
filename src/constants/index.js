@@ -174,6 +174,7 @@ const experiences = [
     points: [
       "Building microservices with Nest.js and implementing the product's business logic",
       "Orchestrating asynchronous processes through RabbitMQ queues",
+      "I worked with non-relational databases such as MongoDB, since many microservices needed to focus on storing data.",
       "Creating interfaces and components with Vue.js within a microfrontend architecture",
       "Working in the aviation industry for Sky Airline, on the returns and claims area, handling complex architectures and high data volumes",
       "Collaborating in a Scrum team of up to 7 people",
