@@ -3,7 +3,6 @@ import {
   backend,
   creator,
   web,
-  javascript,
   typescript,
   html,
   css,
@@ -12,6 +11,7 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  postgresql,
   git,
   nestjs,
   bootstrap,
@@ -83,10 +83,6 @@ const technologies = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "TypeScript",
     icon: typescript,
   },
@@ -110,10 +106,6 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
   {
     name: "Shadcn UI",
     icon: shadcn,
@@ -130,6 +122,14 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
   },
 ];
 
