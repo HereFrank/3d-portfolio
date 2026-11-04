@@ -1,15 +1,13 @@
 import { Suspense } from "react";
-import { Canvas } from "@react-three/fiber";
 import {
   Decal,
   Float,
   OrbitControls,
-  Preload,
+  PerspectiveCamera,
   useTexture,
 } from "@react-three/drei";
-import CanvasLoader from "../Loader";
 
-const Ball = ({ imgUrl }) => {
+const BallMesh = ({ imgUrl }) => {
   const [decal] = useTexture([imgUrl]);
 
   return (
@@ -36,17 +34,22 @@ const Ball = ({ imgUrl }) => {
   );
 };
 
-const BallCanvas = ({ icon }) => {
-  return (
-    <Canvas frameloop="always" gl={{ preserveDrawingBuffer: true }}>
-      <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} />
-        <Ball imgUrl={icon} />
-      </Suspense>
+// Scene content for one tech ball. It is rendered inside a drei <View> that
+// shares a single WebGL canvas with every other ball. Each ball needs its own
+// camera (the default one is shared by all views) and its own DOM box for
+// pointer input, so dragging a ball rotates only that ball.
+const Ball = ({ icon, viewRef }) => (
+  <Suspense fallback={null}>
+    <PerspectiveCamera
+      makeDefault
+      position={[0, 0, 5]}
+      fov={75}
+      near={0.1}
+      far={1000}
+    />
+    <OrbitControls enableZoom={false} domElement={viewRef.current} />
+    <BallMesh imgUrl={icon} />
+  </Suspense>
+);
 
-      <Preload all />
-    </Canvas>
-  );
-};
-
-export default BallCanvas;
+export default Ball;

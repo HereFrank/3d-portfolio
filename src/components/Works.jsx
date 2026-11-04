@@ -32,6 +32,8 @@ const ProjectCard = ({
         >
           <img
             src={image}
+            loading="lazy"
+            decoding="async"
             alt="project_image"
             className="w-full h-full object-cover rounded-2xl"
           />
@@ -44,6 +46,7 @@ const ProjectCard = ({
               >
                 <img
                   src={github}
+                  loading="lazy"
                   alt="source code"
                   className="w-1/2 h-1/2 object-contain"
                 />

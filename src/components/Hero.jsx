@@ -1,7 +1,9 @@
+import { Suspense, lazy } from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+
+const ComputersCanvas = lazy(() => import("./canvas/Computers"));
 
 const Hero = () => {
   return (
@@ -18,11 +20,13 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Frank</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 `}>
-            I develop your user interfaces and web applications
+            I build web applications, from the interface to the backend
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+      <Suspense fallback={null}>
+        <ComputersCanvas />
+      </Suspense>
 
       <div className="absolute button-32 w-full flex justify-center items-center xs:bottom-10 ">
         <a href="#about">
